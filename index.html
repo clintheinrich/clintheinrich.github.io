@@ -1,38 +1,84 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Clint's Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clint's Projects</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
 
+		body {
+			margin: 0;
+			font-family: "Segoe UI", Tahoma, sans-serif;
+			background: #ffffff;
+			color: #222222;
+			line-height: 1.5;
+		}
+
+		main {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 32px 20px;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 1.9rem;
+		}
+
+		p {
+			margin: 8px 0 24px;
+			color: #555555;
+		}
+
+		ul {
+			margin: 0;
+			padding-left: 20px;
+		}
+
+		li {
+			margin-bottom: 14px;
+		}
+
+		.project-name {
+			display: block;
+			margin: 0;
+			font-weight: 600;
+		}
+
+		a {
+			color: #0b57d0;
+		}
+
+		.links {
+			font-size: 0.95rem;
+		}
+	</style>
 </head>
 
 <body>
+	<main>
+		<h1>Clint's Projects</h1>
+		<p></p>
 
-	<h1>Clint's Projects</h1>
-
-	<ul>
-		<li><a HREF="https://spotify-advanced-search.vercel.app/">Spotify Advanced Search</a></li>
 		<ul>
-			<li><a HREF="https://github.com/clintheinrich/spotify-advanced-search">Github Repo</a></li>
+			<li>
+				<span class="project-name">Spotify Advanced Search</span>
+				<span class="links"><a href="https://spotify-advanced-search.vercel.app/" target="_blank" rel="noopener noreferrer">Link</a> | <a href="https://github.com/clintheinrich/spotify-advanced-search" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+			</li>
+			<li>
+				<span class="project-name">Steam Backlog Manager</span>
+				<span class="links"><a href="https://steam-snowball.vercel.app/" target="_blank" rel="noopener noreferrer">Link</a> | <a href="https://github.com/clintheinrich/steam-snowball" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+			</li>
+			<li>
+				<span class="project-name">Paper Airplane Game</span>
+				<span class="links"><a href="paper-airplane/index.html">Link</a> | <a href="https://github.com/clintheinrich/paper-airplane-game" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+			</li>
 		</ul>
-
-		<li><a HREF="https://steam-snowball.vercel.app/">Steam Backlog Manager</a></li>
-		<ul>
-			<li><a HREF="https://github.com/clintheinrich/steam-snowball">Github Repo</a></li>
-		</ul>
-
-		<li><a HREF="paper-airplane/index.html">Paper Airplane Game</a></li>
-		<ul>
-			<li><a HREF="https://github.com/clintheinrich/paper-airplane-game">Github Repo</a></li>
-		</ul>
-
-		<li><a HREF="https://clintheinrich.github.io/character-generator/">React Character Generator for Basic D&D</a>
-		</li>
-		<ul>
-			<li><a HREF="https://github.com/clintheinrich/character-generator/tree/gh-pages/source-files">Source
-					Files</a></li>
-		</ul>
-		<ul>
+	</main>
 </body>
 
 </html>
